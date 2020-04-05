@@ -1,6 +1,6 @@
 <?php
 
-namespace Neutron\LaravelPreset;
+namespace Zuhaili92\LaravelPreset;
 
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\File;

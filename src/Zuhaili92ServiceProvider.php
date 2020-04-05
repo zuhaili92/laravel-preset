@@ -2,7 +2,7 @@
 
 namespace Zuhaili92\LaravelPreset;
 
-use Zuhaili92\Preset;
+use Zuhaili92\LaravelPreset\Preset;
 use Illuminate\Support\ServiceProvider;
 use Laravel\Ui\UiCommand;
 
