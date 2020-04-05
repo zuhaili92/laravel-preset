@@ -1,0 +1,24 @@
+{
+    "name": "neutron/laravel-preset",
+    "description": "The default Neutron Laravel preset.",
+    "license": "MIT",
+    "keywords": ["laravel", "laravel preset", "neutron"],
+    "authors": [
+        {
+            "name": "Zuhaili",
+            "email": "zuhaili.xperia@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Neutron\\LaravelPreset\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel" : {
+            "providers" : ["Neutron\\LaravelPreset\\NeutronServiceProvider"]
+        }
+    }
+}
