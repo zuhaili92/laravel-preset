@@ -1,12 +1,12 @@
 <?php
 
-namespace Neutron\LaravelPreset;
+namespace Zuhaili92\LaravelPreset;
 
-use Neutron\Preset;
+use Zuhaili92\Preset;
 use Illuminate\Support\ServiceProvider;
 use Laravel\Ui\UiCommand;
 
-class NeutronServiceProvider extends ServiceProvider
+class Zuhaili92ServiceProvider extends ServiceProvider
 {
     /**
      * Bootstrap services.

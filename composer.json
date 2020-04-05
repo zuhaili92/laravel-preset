@@ -1,8 +1,8 @@
 {
-    "name": "neutron/laravel-preset",
-    "description": "The default Neutron Laravel preset.",
+    "name": "zuhaili92/laravel-preset",
+    "description": "The default Zuhaili92 Laravel preset.",
     "license": "MIT",
-    "keywords": ["laravel", "laravel preset", "neutron"],
+    "keywords": ["laravel", "laravel preset", "zuhaili92"],
     "authors": [
         {
             "name": "Zuhaili",
@@ -13,12 +13,12 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "Neutron\\LaravelPreset\\": "src/"
+            "Zuhaili92\\LaravelPreset\\": "src/"
         }
     },
     "extra": {
         "laravel" : {
-            "providers" : ["Neutron\\LaravelPreset\\NeutronServiceProvider"]
+            "providers" : ["Zuhaili92\\LaravelPreset\\Zuhaili92ServiceProvider"]
         }
     }
 }
